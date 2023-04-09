@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinerama</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS autoplay  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+<!-- Barra de navegacion -->
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i> CINERAMA
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Menu -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Inicio</a></li>
+            <li><a href="#movies">Peliculas</a></li>
+            <li><a href="#coming">Estrenos</a></li>
+            <li><a href="#newsletter">Proximamente</a></li>
+        </ul>
+        <a href="#" class="btn">Sign In</a>
+    </header>
+
+<!-- Home o Inicio, contenedores de peliculas en la portada-->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="/img/portada/jhon wick4.jpg" alt="">
+                <div class="home-text" id="textimage">
+                    <span>Chad Stahelski</span>
+                    <h1>Jhon Wick 4<br>  </h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <!-- <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a> -->
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide container">
+                <img src="/img/portada/mario portada2.jpg" alt="">
+                <div class="home-text" id="textimage">
+                    <span>Studio</span>
+                    <h1>Mario Bros<br>  </h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <!-- <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a> -->
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide container">
+                <img src="/img/portada/shazam portada.jpg" alt="">
+                <div class="home-text" id="textimage">
+                    <span>DC</span>
+                    <h1>Shazam<br> Furia de los dioses </h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <!-- <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a> -->
+                </div>
+            </div>
+            <!-- Box 4 -->
+            <div class="swiper-slide container">
+                <img src="/img/portada/calabozos y dragones 2023.png" alt="">
+                <div class="home-text" id="textimage">
+                    <span>Studio</span>
+                    <h1>Calabozos y dragones<br>  </h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <!-- <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a> -->
+                </div>
+            </div>
+            <!-- Box "seleccione segun cartelera" -->
+            <div class="swiper-slide container">
+                <img src="/img/portada/thewale.png" alt="">
+                <div class="home-text" id="textimage">
+                    <span>The Wale</span>
+                    <h1>The <br> Whale </h1>
+                    <a href="#" class="btn">Trailer</a>
+                    <!-- <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a> -->
+                    
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+<!-- Peliculas en lista -->
+    <section class="movies" id="movies">
+        <h2 class="heading">Cartelera de esta semana</h2>
+        <!-- Peliculas Container -->
+        <div class="movies-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/portada/jhon wick4.jpg" alt="">
+                </div>
+            <h3>Jhon Wick 4</h3>
+            <span>120 min | Accion </span>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/portada/mario portada2.jpg" alt="">
+                </div>
+                <h3>Mario Bros</h3>
+                <span>120 min | Accion </span>
+                </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/portada/calabozos y dragones 2023.png" alt="">
+                </div>
+                <h3>Calabozos y dragones</h3>
+                <span>120 min | Accion </span>
+                </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/portada/thewale.png" alt="">
+                </div>
+                <h3>The Whale</h3>
+                <span>120 min | Accion </span>
+                </div>
+            <!-- Box 5 -->
+            <!-- <div class="box">
+                <div class="box-img">
+                    <img src="img/portada/jhon wick4.jpg" alt="">
+                </div>
+                <h3>Jhon Wick 4</h3>
+                <span>120 min | Accion </span>
+                </div> -->
+        </div>
+    </section>
+
+<!-- Proximamente -->
+    <section class="coming" id="coming">
+        <h2 class="heading">Proximos estrenos</h2>
+        <!-- Contenedor proximos estrenos -->
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+            <!-- Box 1 -->
+            <div class="swiper-slide box">
+                <div class="box-img">
+                    <img src="img/portada/thewale.png" alt="">
+                </div>
+                <h3>The Whale</h3>
+                <span>120 min | Accion </span>
+            </div>
+        </div>
+            <!-- Box 2 -->
+            <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/portada/thewale.png" alt="">
+                    </div>
+                    <h3>The Whale</h3>
+                    <span>120 min | Accion </span>
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/portada/thewale.png" alt="">
+                    </div>
+                    <h3>The Whale</h3>
+                    <span>120 min | Accion </span>
+                </div>
+            </div>
+            <!-- Box 4 -->
+            <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="img/portada/thewale.png" alt="">
+                    </div>
+                    <h3>The Whale</h3>
+                    <span>120 min | Accion </span>
+                </div>
+            </div>
+    </section>
+
+<!-- Swiper JS :) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- link to Custom JS (javascript) -->
+    <script src="main.js">	</script>
+</body>
+</html>
