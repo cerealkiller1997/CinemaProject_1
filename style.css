@@ -198,6 +198,7 @@ section {
 .box span {
     font-size: 13px;
 }
+/* Contenedor proximamente */
 .coming-container {
     display: grid;
     gap: 1rem;
@@ -205,4 +206,10 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+}
+.coming-container .box-img img:hover {
+    transform: translateY(0);
+}
+.coming-container .box {
+    width: 100px;
 }
