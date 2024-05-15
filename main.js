@@ -53,3 +53,4 @@ var swiper = new Swiper(".home", {
     },
   });
   
+//retomar proyecto personal agregar funcionalidades
